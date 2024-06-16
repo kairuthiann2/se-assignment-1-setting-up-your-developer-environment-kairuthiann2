@@ -126,7 +126,7 @@ Step 5 Verify Dart Installation:
 
 Open Command Prompt and type `dart --version` to verify the installation.
 
-# Installion of Flutter
+# Installation of Flutter
 
 Step 1 Download Flutter SDK
 
@@ -144,11 +144,11 @@ Open System Properties and go to Advanced System Settings.
 
 Click on Environment Variables.
 
-Under System Variables, find Path and click Edit. Add the path to the Flutter SDK’s `bin` directory, e.g., `C:\flutter\bin`.
+Under User Variables, find Path and click Edit. Add the path to the Flutter SDK’s `bin` directory, e.g., `C:\flutter\bin`.
 
 Step 4 Run Flutter Doctor:
 
-Open Command Prompt and type` flutter doctor` to check for any dependencies that need to be installed.
+Open Command Prompt and type` flutter doctor` to check for any dependencies that need to be installed for example (Visual Studio).
 
 Step 5 Install Android Studio (Optional but Recommended):
 
@@ -159,7 +159,7 @@ Step 6 Verify Flutter Installation:
 
 Run `flutter doctor` again to ensure that everything is set up correctly.
 
-# customizations made with screenshots
+# customizations made with
 
 while installing the MySQL select `customize` instead of the `server option` in the Choose `set up type`. Click `next`
 
@@ -171,29 +171,37 @@ In my case i choose MySQL `workbench` and MySQL `shell`
 
 # A reflection on the challenges faced during setup and strategies employed to overcome them.
 
-1.  Issues Encountered with MySQL installation process
+1.  Issues Encountered
+    Python, Flutter and Dart installation processes were smooth. However MySQL installation process was a greate challenge and below is the issue encountered and how i manged to fix it.
 
 - Denied access for root@localhost with password 'root'
 
 Troubleshooting Steps for This Issue(used a guide from a youtube tutorial video by `Amit Thinks ` and `KaRam` )
 
 step 1
+
 uninstall MySQL completely from your PC.
 
 step 2
+
 Restart your PC.
 
 step 3
+
 Reinstall MySQL once again.
 
 step 4
+
 This time set a new password.
 
 step 5
+
 Ensure the path is set to the system variables and the user variables.
 
 step 6
+
 Then run MySQL -u root -p and enter your password to access MySQL server.
 
 step 7
+
 Now start on creating your database.
